@@ -303,11 +303,12 @@
 /* 5.电影 */
 .movie {
   height: 668px;
+  padding-top: 29px;
+  box-sizing: border-box;
 }
 
 .movie-content {
   margin-left: 67px;
-  margin-top: 29px;
   width: 969px;
   height: 567px;
 }
@@ -481,4 +482,157 @@
 .movie-content-right-class-bottom-item a:hover {
   color: #fff;
   background-color: #2277aa;
+}
+
+.group {
+  height: 613px;
+  padding-top: 36px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+}
+
+.group-content {
+  margin-left: 67px;
+  width: 957px;
+  height: 534px;
+}
+
+.group-content-left {
+  float: left;
+}
+
+.group-content-left h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.group-content-left a {
+  color: #017a85;
+}
+
+.group-content-left a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.group-content-left-item li {
+  margin-bottom: 10px;
+}
+
+.group-content-left-item a {
+  font-size: 14px;
+}
+
+.group-content-right {
+  float: right;
+  width: calc(562px + 270px);
+  height: 534px;
+}
+
+.group-content-right-main {
+  float: left;
+  width: 562px;
+  height: 534px;
+}
+
+.group-content-right-main h3,
+.group-content-right-class h3 {
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  color: #007722;
+  font-weight: 400;
+}
+
+.group-content-right-main small {
+  color: #017a85;
+  font-size: 12px;
+}
+
+.group-content-right-main-bottom {
+  width: 562px;
+  height: 509px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.group-content-right-main-item {
+  float: left;
+  width: 244px;
+  height: 48px;
+  margin-bottom: 40px;
+  margin-right: 33px;
+}
+
+.group-content-right-main-item-left {
+  float: left;
+}
+
+.group-content-right-main-item-left img {
+  width: 48px;
+  height: 48px;
+}
+
+.group-content-right-main-item-right {
+  float: left;
+  width: 184px;
+  height: 48px;
+  margin-left: 11px;
+}
+
+.group-content-right-main-item-right a {
+  display: inline-block;
+  color: #017a85;
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+.group-content-right-main-item-right a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.group-content-right-main-item-right span {
+  color: #999;
+}
+
+.group-content-right-class {
+  float: right;
+  width: 270px;
+  height: 534px;
+}
+
+.group-content-right-class-item {
+  margin-top: 18px;
+}
+
+.group-content-right-class-item-title {
+  width: 270px;
+  margin-bottom: 9px;
+  color: #333;
+  font-size: 15px;
+}
+
+.group-content-right-class-item li {
+  float: left;
+  margin-right: 12px;
+}
+
+.group-content-right-class-item a {
+  color: #017a85;
+}
+
+.group-content-right-class-item a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.group-content-right-class-item-title a {
+  color: #333;
+}
+
+.group-content-right-class-item li:nth-child(8) {
+  margin-right: 0px;
 }
