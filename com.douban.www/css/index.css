@@ -484,6 +484,7 @@
   background-color: #2277aa;
 }
 
+/* 6.小组 */
 .group {
   height: 613px;
   padding-top: 36px;
@@ -620,6 +621,10 @@
   margin-right: 12px;
 }
 
+.group-content-right-class-item li:nth-child(8) {
+  margin-right: 0px;
+}
+
 .group-content-right-class-item a {
   color: #017a85;
 }
@@ -633,6 +638,250 @@
   color: #333;
 }
 
-.group-content-right-class-item li:nth-child(8) {
-  margin-right: 0px;
+/* 7.读书 */
+.read {
+  height: 660px;
+  padding-top: 36px;
+}
+
+.read-content {
+  margin-left: 67px;
+  width: 955px;
+  height: 562px;
+}
+
+.read-content-left {
+  float: left;
+}
+
+.read-content-left h2 {
+  font-size: 24px;
+  margin-bottom: 17px;
+  font-weight: 400;
+}
+
+.read-content-left a {
+  color: #494949;
+}
+
+.read-content-left a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.read-content-left-bottom li {
+  margin-bottom: 13px;
+}
+
+.read-content-left-bottom a {
+  font-size: 14px;
+}
+
+.read-content-right {
+  float: right;
+  width: 849px;
+  height: 562px;
+}
+
+.read-content-right-main {
+  float: left;
+  width: 532px;
+  height: 562px;
+}
+
+.read-content-right-main-top,
+.read-content-right-main-bottom {
+  width: 532px;
+  height: 265px;
+}
+
+.read-content-right-main-top h3,
+.read-content-right-main-bottom h3 {
+  height: 25px;
+  line-height: 25px;
+  color: #228a31;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 17px;
+  box-sizing: border-box;
+}
+
+.read-content-right-main-top small,
+.read-content-right-main-bottom small {
+  font-size: 13px;
+  color: #333;
+}
+
+.read-content-right-main-top {
+  margin-bottom: 21px;
+}
+
+.read-content-right-main-top ul,
+.read-content-right-main-bottom ul {
+  height: calc(265px - 25px);
+  padding-top: 11px;
+  box-sizing: border-box;
+}
+
+.read-content-right-main-top-item,
+.read-content-right-main-bottom-item {
+  float: left;
+  margin-left: 33px;
+  text-align: center;
+}
+
+.read-content-right-main-top-item img,
+.read-content-right-main-bottom-item img {
+  height: 148px;
+  width: 100px;
+}
+
+.read-content-right-main-top-item div,
+.read-content-right-main-bottom-item div {
+  margin-top: 14px;
+  margin-bottom: 8px;
+  font-size: 12.5px;
+}
+
+.read-content-right-main-top-item p,
+.read-content-right-main-bottom-item p {
+  margin-bottom: 5px;
+}
+
+.read-content-right-main-top-item span,
+.read-content-right-main-bottom-item span {
+  display: block;
+  width: 68px;
+  height: 23px;
+  color: #fff;
+  background-color: #999a95;
+  margin-left: 16px;
+  line-height: 23px;
+}
+
+.read-content-right-main-top-item span:hover,
+.read-content-right-main-bottom-item span:hover {
+   background-color: #53534e;
+}
+
+.read-content-right-main-top-item-title a:hover,
+.read-content-right-main-bottom-item-title a:hover {
+   color: #fff;
+   background-color: #2277aa;
+}
+
+.read-content-right-class {
+  float: right;
+  width: 267px;
+  height: 562px;
+}
+
+.read-content-right-class h3 {
+   height: 25px;
+   line-height: 25px;
+   font-size: 15px;
+   color: #228a31;
+   font-weight: 400;
+}
+
+.read-content-right-class span {
+  font-size: 13px;
+  color: #333;
+}
+
+.read-content-right-class-item {
+  height: 61px;
+  width: 267px;
+  padding: 10px 0px;
+  border-top: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.read-content-right-class-item li {
+  float: left;
+  font-size: 12px;
+  line-height: 1.7;
+  margin-right: 13px;
+}
+
+.read-content-right-class-item-label a {
+  color: #999;
+}
+
+.read-content-right-class-item a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+/* 8.音乐 */
+.music {
+  height: 826px;
+  background-color: #f7f7f7;
+  padding-top: 36px;
+  box-sizing: border-box;
+}
+
+.music-content {
+  width: 956px;
+  height: 769px;
+  margin-left: 67px;
+}
+
+.music-content-left {
+  float: left;
+}
+
+.music-content-right {
+  float: right;
+  width: calc(559px + 206px);
+  height: 769px;
+}
+
+.music-content-right-new {
+  float: left;
+  width: 559px;
+  height: 769px;
+}
+
+.music-content-right-new-top {
+  width: 559px;
+  height: 410px;
+}
+
+.music-content-right-new-top ul {
+  width: 559px;
+  height: calc(410px - 30px);
+}
+
+.music-content-right-new-top-item {
+  float: left;
+  width: 105px;
+  height: 149px;
+  text-align: center;
+}
+
+.music-content-right-new-top-item img,
+.music-content-right-new-bottom-item img {
+  width: 80px;
+  height: 80px;
+}
+
+.music-content-right-new-bottom {
+  width: 559px;
+  height: 351px;
+}
+
+.music-content-right-new-bottom ul {
+  width: 559px;
+  height: calc(351px - 30px);
+}
+
+.music-content-right-new-bottom-item {
+  float: left;
+}
+
+.music-content-right-popular {
+  float: right;
+  width: 206px;
+  height: 769px;
 }
