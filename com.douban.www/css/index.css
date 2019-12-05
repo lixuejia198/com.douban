@@ -761,13 +761,13 @@
 
 .read-content-right-main-top-item span:hover,
 .read-content-right-main-bottom-item span:hover {
-   background-color: #53534e;
+  background-color: #53534e;
 }
 
 .read-content-right-main-top-item-title a:hover,
 .read-content-right-main-bottom-item-title a:hover {
-   color: #fff;
-   background-color: #2277aa;
+  color: #fff;
+  background-color: #2277aa;
 }
 
 .read-content-right-class {
@@ -777,11 +777,11 @@
 }
 
 .read-content-right-class h3 {
-   height: 25px;
-   line-height: 25px;
-   font-size: 15px;
-   color: #228a31;
-   font-weight: 400;
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  color: #228a31;
+  font-weight: 400;
 }
 
 .read-content-right-class span {
@@ -855,9 +855,19 @@
 
 .music-content-right-new-top-item {
   float: left;
-  width: 105px;
+  width: 106px;
   height: 149px;
   text-align: center;
+  margin-right: 29px;
+  font-size: 12px;
+}
+
+.music-content-right-new-top-item p {
+  line-height: 1.7;
+}
+
+.music-content-right-new-top-item:nth-child(-n+4) {
+  margin-bottom: 62px;
 }
 
 .music-content-right-new-top-item img,
@@ -878,10 +888,28 @@
 
 .music-content-right-new-bottom-item {
   float: left;
+  width: 123px;
+  height: 134px;
+  text-align: center;
+  margin-right: 9px;
 }
 
 .music-content-right-popular {
   float: right;
   width: 206px;
   height: 769px;
+}
+
+.music-content-right-popular-item {
+  width: 206px;
+  height: 60px;
+}
+
+.music-content-right-popular-item img,
+.music-content-right-popular-item span {
+  float: left;
+}
+
+.music-content-right-popular-item-introduce {
+  float: left;
 }
