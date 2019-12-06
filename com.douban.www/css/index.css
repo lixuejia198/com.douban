@@ -831,10 +831,38 @@
   float: left;
 }
 
+.music-content-left a {
+  color: #f38c00;
+}
+
+.music-content-left a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.music-content-left h2 {
+  font-size: 24px;
+  margin-bottom: 17px;
+  font-weight: 400;
+}
+
+.music-content-left-item {
+  font-size: 14px;
+}
+
+.music-content-left-item li {
+  margin-bottom: 11px;
+}
+
+.music-content-left-item a {
+  color: #555d53;
+}
+
 .music-content-right {
-  float: right;
+  float: left;
   width: calc(559px + 206px);
   height: 769px;
+  margin-left: 36px;
 }
 
 .music-content-right-new {
@@ -845,7 +873,22 @@
 
 .music-content-right-new-top {
   width: 559px;
-  height: 410px;
+}
+
+.music-content-right-new-top h3,
+.music-content-right-new-bottom h3 {
+  height: 30px;
+  line-height: 30px;
+  color: #228a31;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.music-content-right-new-top small,
+.music-content-right-new-bottom small {
+  font-size: 13px;
+  color: #333;
 }
 
 .music-content-right-new-top ul {
@@ -862,10 +905,6 @@
   font-size: 12px;
 }
 
-.music-content-right-new-top-item p {
-  line-height: 1.7;
-}
-
 .music-content-right-new-top-item:nth-child(-n+4) {
   margin-bottom: 62px;
 }
@@ -876,9 +915,19 @@
   height: 80px;
 }
 
+.music-content-right-new-top-item p {
+  line-height: 1.7;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: #555d53;
+}
+
+.music-content-right-new-top-item span {
+  color: #555d53;
+}
+
 .music-content-right-new-bottom {
   width: 559px;
-  height: 351px;
 }
 
 .music-content-right-new-bottom ul {
@@ -892,17 +941,41 @@
   height: 134px;
   text-align: center;
   margin-right: 9px;
+  font-size: 12.5px;
+}
+
+.music-content-right-new-bottom-item:nth-child(-n+4) {
+  margin-bottom: 40px;
+}
+
+.music-content-right-new-bottom-item p {
+  line-height: 1.7;
+  margin-top: 10px;
 }
 
 .music-content-right-popular {
   float: right;
   width: 206px;
-  height: 769px;
+}
+
+.music-content-right-popular h3 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #228a31;
+  margin-bottom: 11px;
+}
+
+.music-content-right-popular small {
+  color: #333;
+  font-size: 12px;
 }
 
 .music-content-right-popular-item {
   width: 206px;
   height: 60px;
+  margin-bottom: 17px;
 }
 
 .music-content-right-popular-item img,
@@ -910,6 +983,160 @@
   float: left;
 }
 
+.music-content-right-popular-item span {
+  margin-right: 9px;
+}
+
 .music-content-right-popular-item-introduce {
   float: left;
+  margin-left: 10px;
+  font-size: 12.5px;
+}
+
+.music-content-right-popular-item-introduce a {
+  color: #555d53;
+}
+
+.music-content-right-popular-item-introduce a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.music-content-right-popular-item-introduce p {
+  color: #999;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+/* 9.豆品 */
+.product {
+  height: 679px;
+  padding-top: 28px;
+  box-sizing: border-box;
+}
+
+.product-content {
+  width: 953px;
+  margin-left: 69px;
+
+}
+
+.product-content-left {
+  float: left;
+  width: 644px;
+  height: 612px;
+}
+
+.product-content-left h2 {
+  height: 47px;
+  line-height: 47px;
+  font-weight: 400;
+}
+
+.product-content-left-title a {
+  font-size: 24px;
+  color: #1f9432;
+  margin-right: 70px;
+}
+
+.product-content-left-title a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.product-content-left-title i {
+  font-size: 15px;
+  color: #228a31;
+}
+
+.product-content-left-title small {
+  font-size: 13px;
+  color: #3377a9;
+}
+
+.product-content-left ul {
+  width: 644px;
+  padding-left: 122px;
+  box-sizing: border-box;
+}
+
+.product-content-left-item {
+  float: left;
+  width: 240px;
+  height: 282px;
+  margin-right: 20px;
+}
+
+.product-content-left-item-introduce {
+  width: 240px;
+  height: 20px;
+  margin-top: 12px;
+}
+
+.product-content-left-item-introduce a {
+  float: left;
+  color: #3377a9;
+  font-size: 15px
+}
+
+.product-content-left-item-introduce a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.product-content-left-item-introduce span {
+  float: right;
+  color: #e55457;
+  font-size: 15px;
+}
+
+.product-content-left-item img {
+  width: 240px;
+  height: 220px;
+}
+
+.product-content-left-item img:hover {
+  opacity: 0.8;
+}
+
+.product-content-right {
+  float: right;
+  width: 265px;
+}
+
+.product-content-right h3 {
+  height: 47px;
+  line-height: 47px;
+  font-size: 15px;
+  color: #228a31;
+  font-weight: 400;
+}
+
+.product-content-right-sport img {
+  width: 265px;
+  height: 95px;
+}
+
+.product-content-right-sport p {
+  margin-top: 7px;
+  margin-bottom: 19px;
+}
+
+.product-content-right-sport a {
+  color: #3377a9;
+  font-size: 14px;
+}
+
+.product-content-right-sport img:hover {
+  opacity: 0.8;
+}
+
+.product-content-right-sport p a:hover {
+  color: #fff;
+  background-color: #2277aa;
+}
+
+.product-content-right small {
+  font-size: 13px;
+  color: #3377a9;
 }
