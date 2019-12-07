@@ -1140,3 +1140,72 @@
   font-size: 13px;
   color: #3377a9;
 }
+
+/* 10.同城 */
+.city {
+  height: 396px;
+  background-color: #f7f7f7;
+  padding-top: 29px;
+  box-sizing: border-box;
+}
+
+.city-content {
+  margin-left: 67px;
+  width: 938px;
+  height: 336px;
+}
+
+.city-content-left {
+  float: left;
+}
+
+.city-content-right {
+  float: right;
+  width: 816px;
+}
+
+.city-content-right-main {
+  float: left;
+  width: 538px;
+}
+
+.city-content-right-main-bottom {
+  width: 538px;
+}
+
+.city-content-right-main-bottom-item {
+  float: left;
+  width: 244px;
+  height: 106px;
+}
+
+.city-content-right-main-bottom-item a {
+  float: left;
+}
+
+.city-content-right-main-bottom-introduce {
+  float: left;
+  width: 166px;
+}
+
+.city-content-right-main-bottom-item img {
+  width: 70px;
+  height: 90px;
+}
+
+.city-content-right-class {
+  float: right;
+  width: 254px;
+}
+
+.city-content-right-class-bottom {
+  width: 254px;
+}
+
+.city-content-right-class-bottom-item li {
+  float: left;
+}
+
+.city-content-right-class-bottom-item-title {
+  width: 254px;
+}
