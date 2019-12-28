@@ -1,0 +1,183 @@
+.container {
+  width: 1099px;
+  margin: 0 auto;
+}
+
+/* 1.顶部导航 */
+nav {
+  height: 28px;
+  background-color: #545652;
+  line-height: 28px;
+}
+
+nav .left {
+  float: left;
+}
+
+nav .right {
+  float: right;
+}
+
+nav .left a,
+nav .right a {
+  color: rgba(255, 255, 255, 0.65);
+  margin-right: 20px;
+}
+
+nav .left a:first-child {
+  margin-left: 10px;
+}
+
+/* 2.头部 */
+header {
+  height: 102px;
+  line-height: 102px;
+}
+
+header .left {
+  float: left;
+  height: 100%;
+  font-size: 26px;
+  margin-right: 197px;
+}
+
+header .left span {
+  color: #44883e;
+  font-weight: 550;
+}
+
+header .left b {
+  color: #d7e6d6;
+}
+
+header .center {
+  float: left;
+  height: 100%;
+}
+
+header .center a {
+  color: #6e6e6e;
+  font-size: 18px;
+  margin-right: 29px;
+}
+
+header .right {
+  position: relative;
+  float: right;
+  height: 100%;
+}
+
+header .right span {
+  font-size: 15px;
+  color: #6e6e6e;
+}
+
+header .right i {
+  position: absolute;
+  top: 38px;
+  left: -35px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/user_large.jpg);
+  background-size: 24px 24px;
+  border-radius: 50%;
+}
+
+/* 4.主体 */
+main {
+  margin-top: 21px;
+}
+
+.new {
+  height: 483px;
+}
+
+.new h2 {
+  height: 100px;
+  line-height: 100px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul .new-item {
+  float: left;
+  margin-right: 20px;
+}
+
+ul .new-item:last-child {
+  margin-right: 0;
+}
+
+.new-item img {
+  width: 353px;
+  height: 264px;
+}
+
+.new-item img:hover {
+  opacity: 0.9;
+}
+
+.new-item h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.new-item p {
+  font-size: 14px;
+  color: #b1b1b1;
+  margin-bottom: 7px;
+}
+
+.new-item span {
+  color: #dd1944;
+  font-size: 16px;
+}
+
+.single {
+  height: 483px;
+}
+
+.single h2 {
+  height: 100px;
+  line-height: 100px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul .single-item {
+  float: left;
+  margin-right: 19px;
+}
+
+ul .single-item:last-child {
+  margin-right: 0;
+}
+
+.single-item img {
+  width: 260px;
+  height: 260px;
+}
+
+.single-item img:hover {
+  opacity: 0.9;
+}
+
+.single-item h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.single-item p {
+  font-size: 14px;
+  color: #b1b1b1;
+  margin-bottom: 7px;
+}
+
+.single-item span {
+  color: #dd1944;
+  font-size: 16px;
+}

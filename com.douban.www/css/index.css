@@ -1,3 +1,8 @@
+/* 版心 */
+.container {
+  width: 1077px;
+  margin: 0 auto;
+}
 /* 1.顶部导航 */
 .topnav {
   height: 89px;
