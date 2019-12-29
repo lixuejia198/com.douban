@@ -28,6 +28,10 @@ nav .left a:first-child {
   margin-left: 10px;
 }
 
+nav a:hover {
+  color: #fff;
+}
+
 /* 2.头部 */
 header {
   height: 102px;
@@ -61,14 +65,18 @@ header .center a {
   margin-right: 29px;
 }
 
+header .center a:hover {
+  color: #6fa46a;
+}
+
 header .right {
   position: relative;
   float: right;
   height: 100%;
+  font-size: 15px;
 }
 
 header .right span {
-  font-size: 15px;
   color: #6e6e6e;
 }
 
@@ -81,6 +89,31 @@ header .right i {
   background-image: url(../img/user_large.jpg);
   background-size: 24px 24px;
   border-radius: 50%;
+}
+
+header .right .introduce {
+  display: none;
+  position: absolute;
+  top: 71px;
+  left: -41px;
+  width: 112px;
+  border: 1px solid #d8d8d8;
+  height: 112px;
+  line-height: 1.9;
+  text-align: center;
+  padding: 15px 5px;
+  box-sizing: border-box;
+  color: #6e6e6e;
+  background-color: #fff;
+}
+
+header .right:hover .introduce {
+  display: block;
+}
+
+/* 3.轮播图 */
+.carousel img {
+  width: 100%;
 }
 
 /* 4.主体 */
@@ -180,4 +213,206 @@ ul .single-item:last-child {
 .single-item span {
   color: #dd1944;
   font-size: 16px;
+}
+
+.classical {
+  height: 587px;
+  padding-bottom: 83px;
+  box-sizing: border-box;
+}
+
+.classical-title {
+  height: 86px;
+  line-height: 86px;
+}
+
+.classical-title h5 {
+  float: left;
+  font-size: 16px;
+}
+
+.classical-title span {
+  float: right;
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
+.classical img {
+  width: 100%;
+}
+
+.more {
+  height: 456px;
+}
+
+.more-title {
+  height: 67px;
+  line-height: 67px;
+}
+
+.more-title h2 {
+  float: left;
+  font-size: 20px;
+  margin-right: 18px;
+}
+
+.more-title p {
+  float: left;
+  color: #b1b1b1;
+  font-size: 16px;
+}
+
+.more-title span {
+  float: right;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.more-item li {
+  float: left;
+  margin-right: 19px;
+}
+
+.more-item li:last-child {
+  margin-right: 0;
+}
+
+.more-item img {
+  width: 260px;
+  height: 260px;
+}
+
+.more-item img:hover {
+  opacity: 0.9;
+}
+
+.more-item h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.more-item p {
+  font-size: 14px;
+  color: #b1b1b1;
+  margin-bottom: 7px;
+}
+
+.more-item span {
+  color: #dd1944;
+  font-size: 16px;
+}
+
+.evaluation {
+  height: 1099px;
+}
+
+.evaluation h2 {
+  height: 89px;
+  font-size: 20px;
+  line-height: 89px;
+}
+
+.evaluation-left {
+  float: left;
+  width: 560px;
+}
+
+.evaluation-left li {
+  float: left;
+  width: 260px;
+  margin-right: 20px;
+  margin-bottom: 45px;
+}
+
+.evaluation img {
+  width: 260px;
+}
+
+.evaluation-left p {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  font-size: 16px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.evaluation span {
+  position: relative;
+  padding-left: 25px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #6e6e6e;
+}
+
+.evaluation span:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-image: url(../upload/user_01.jpg);
+  background-size: 20px 20px;
+}
+
+.evaluation-item-02 span:before {
+  background-image: url(../upload/user_02.jpg);
+}
+
+.evaluation-item-03 span:before {
+  background-image: url(../upload/user_03.jpg);
+}
+
+.evaluation-item-04 span:before {
+  background-image: url(../upload/user_04.jpg);
+}
+
+.evaluation-item-05 span:before {
+  background-image: url(../upload/user_05.jpg);
+}
+
+.evaluation-item-06 span:before {
+  background-image: url(../upload/user_06.jpg);
+}
+
+.evaluation-item-07 span:before {
+  background-image: url(../upload/user_07.jpg);
+}
+
+.evaluation-item-08 span:before {
+  background-image: url(../upload/user_08.jpg);
+}
+
+.evaluation-right {
+  float: right;
+  width: 539px;
+}
+
+.evaluation-right li {
+  float: left;
+  width: 260px;
+  margin-right: 19px;
+  margin-bottom: 45px;
+}
+
+.evaluation-right li:nth-child(2),
+.evaluation-right li:nth-child(4) {
+  margin-right: 0;
+}
+
+.evaluation-right p {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  font-size: 16px;
+  margin-top: 7px;
+  margin-bottom: 10px;
 }
