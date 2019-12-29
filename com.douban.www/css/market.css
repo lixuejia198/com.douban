@@ -120,7 +120,7 @@ header .right:hover .introduce {
 main {
   margin-top: 21px;
 }
-
+/* 4.1新品首发 */
 .new {
   height: 483px;
 }
@@ -167,7 +167,7 @@ ul .new-item:last-child {
   color: #dd1944;
   font-size: 16px;
 }
-
+/* 4.2人气单品 */
 .single {
   height: 483px;
 }
@@ -214,7 +214,7 @@ ul .single-item:last-child {
   color: #dd1944;
   font-size: 16px;
 }
-
+/* 4.3小轮播图 */
 .classical {
   height: 587px;
   padding-bottom: 83px;
@@ -240,7 +240,7 @@ ul .single-item:last-child {
 .classical img {
   width: 100%;
 }
-
+/* 4.4更多商品展示 */
 .more {
   height: 456px;
 }
@@ -303,7 +303,7 @@ ul .single-item:last-child {
   color: #dd1944;
   font-size: 16px;
 }
-
+/* 4.5用户测评 */
 .evaluation {
   height: 1099px;
 }
@@ -328,6 +328,10 @@ ul .single-item:last-child {
 
 .evaluation img {
   width: 260px;
+}
+
+.evaluation img:hover {
+  opacity: 0.9;
 }
 
 .evaluation-left p {
