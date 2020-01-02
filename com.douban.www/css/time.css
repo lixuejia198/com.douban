@@ -1,0 +1,223 @@
+/* 版心 */
+.container {
+  width: 650px;
+  margin: 0 auto;
+}
+
+/* 1.顶部导航 */
+nav {
+  height: 28px;
+  background-color: #545652;
+  line-height: 28px;
+  margin-bottom: 19px;
+}
+
+nav .left {
+  float: left;
+}
+
+nav .right {
+  float: right;
+}
+
+nav .left a,
+nav .right a {
+  color: rgba(255, 255, 255, 0.65);
+  margin-right: 20px;
+}
+
+nav .left a:first-child {
+  margin-left: 10px;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* 2.轮播图 */
+.carousel img {
+  width: 100%;
+}
+
+/* 3.头部 */
+header {
+  height: 132px;
+  padding-top: 36px;
+  box-sizing: border-box;
+}
+
+header ul {
+  display: flex;
+  height: 100%;
+}
+
+header .item {
+  flex: 1;
+  text-align: center;
+}
+
+header .item a {
+  display: block;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+header .item img {
+  width: 45px;
+  height: 45px;
+}
+
+header .item span {
+  color: #7f7f7f;
+}
+ 
+.preface h4 {
+  height: 50px;
+  line-height: 50px;
+  font-size: 19px;;
+}
+
+.preface-show {
+  overflow: hidden;
+}
+
+.preface-show a {
+  float: left;
+  margin-right: 12px;
+}
+
+.preface-show a img {
+  width: 100px;
+  height: 100px;
+}
+
+.preface-show .preface-introduce {
+  float: left;
+  color: #7f7f7f;
+  font-size: 13px;
+}
+
+.preface-show .preface-introduce h5 {
+  font-size: 15px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.preface-show .preface-introduce p {
+  margin-top: 16px;
+}
+
+.preface-show .price {
+  float: right;
+  font-size: 14px;
+  width: 60px;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.preface-show .price span {
+  color: #f97927;
+}
+
+.preface-show .price del {
+  text-decoration: line-through;
+  color: #bfbfbf;
+}
+
+.song-item {
+  margin-top: 17px;
+  margin-bottom: 22px;
+}
+
+.song-item li {
+  position: relative;
+  float: left;
+  width: 246px;
+  height: 62px;
+  border: 1px solid #f3f3f3;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 8px 14px 0 14px;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.song-item li a {
+  position: relative;
+  display: inline-block;
+  padding-top: 26px;
+  color: #42bd56;
+}
+
+.song-item li a::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 25px;
+  background-image: url(../img/listen_icon.png);
+  background-size: 29px 25px;
+}
+
+.song-item li p {
+  position: absolute;
+  width: 182px;
+  top: 16px;
+  right: 9px;
+}
+
+.preference h4 {
+  height: 56px;
+  line-height: 56px;
+  font-size: 19px;
+}
+
+.preference ul {
+  overflow-x: auto;
+  /* 规定文本中的段落不换行 */
+  white-space: nowrap;
+}
+
+.preference-item {
+  display: inline-block;
+  padding-right: 8px;
+  width: 198px;
+}
+
+.preference-item a {
+  display: block;
+  width: 100%;
+  height: 198px;
+}
+
+.preference-item h5 {
+  width: 100%;
+  height: 34px;
+  white-space: normal;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.preference-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.preference-item span,
+.preference-item del {
+  display: block;
+  font-size: 14px;
+}
+
+.preference-item span {
+  margin-bottom: 6px;
+  color: #f97927;
+}
+
+.preference-item del {
+  margin-bottom: 20px;
+  color: #bfbfbf;
+  text-decoration: line-through;
+}

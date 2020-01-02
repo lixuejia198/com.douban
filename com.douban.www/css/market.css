@@ -420,3 +420,117 @@ ul .single-item:last-child {
   margin-top: 7px;
   margin-bottom: 10px;
 }
+
+.rump {
+  width: 540px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin-left: 279px;
+  margin-top: 44px;
+  color: #8d8d8d;
+  font-size: 16px;
+}
+
+.group {
+  margin-top: 79px;
+  margin-bottom: 160px;
+}
+
+.group-title {
+  height: 90px;
+  line-height: 90px;
+}
+
+.group-title h2 {
+  float: left;
+  font-size: 20px;
+}
+
+.group-title span {
+  float: right;
+  font-size: 15px;
+  color: #a3a3a3;
+}
+
+.group-content-item {
+  height: 63px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 28px;
+  box-sizing: border-box;
+}
+
+.group-content-item .symbol {
+  float: left;
+  margin-top: 17px;
+}
+
+.group-content-item .symbol span {
+  display: block;
+  width: 14px;
+  height: 12px;
+  background-color: #f7b26d;
+  margin-bottom: 2px;
+}
+
+.group-content-item p {
+  float: left;
+  height: 100%;
+  line-height: 63px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.group-content-item small {
+  display: block;
+  float: right;
+  height: 100%;
+  line-height: 63px;
+  font-size: 16px;
+}
+
+/* 5.底部 */
+footer {
+  height: 195px;
+  background-color: #f9f9f9;
+  padding-top: 48px;
+  box-sizing: border-box;
+}
+
+.footer-top {
+  overflow: hidden;
+}
+
+.douban-symbol {
+  float: left;
+  margin-bottom: 11px;
+  color: #ababac;
+  font-size: 24px;
+}
+
+.douban-symbol b {
+  font-weight: normal;
+}
+
+.douban-other {
+  float: right;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.douban-other a {
+  color: #ababac;
+  margin-left: 58px;
+}
+
+footer p {
+  margin-bottom: 7px;
+  color: #ababac;
+}
+
+footer p a {
+  color: #ababac
+}
