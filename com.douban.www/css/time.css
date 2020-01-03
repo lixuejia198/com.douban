@@ -35,13 +35,20 @@ nav a:hover {
 }
 
 /* 2.轮播图 */
+.carousel ul {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
 .carousel img {
   width: 100%;
+  border-radius: 3px;
 }
 
 /* 3.头部 */
 header {
   height: 132px;
+  padding: 0 15px;
   padding-top: 36px;
   box-sizing: border-box;
 }
@@ -70,11 +77,17 @@ header .item img {
 header .item span {
   color: #7f7f7f;
 }
- 
+
+.preface {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
 .preface h4 {
   height: 50px;
   line-height: 50px;
-  font-size: 19px;;
+  font-size: 19px;
+  ;
 }
 
 .preface-show {
@@ -89,6 +102,7 @@ header .item span {
 .preface-show a img {
   width: 100px;
   height: 100px;
+  border-radius: 3px;
 }
 
 .preface-show .preface-introduce {
@@ -167,6 +181,11 @@ header .item span {
   right: 9px;
 }
 
+.preference {
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
 .preference h4 {
   height: 56px;
   line-height: 56px;
@@ -191,6 +210,12 @@ header .item span {
   height: 198px;
 }
 
+.preference-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
 .preference-item h5 {
   width: 100%;
   height: 34px;
@@ -198,11 +223,6 @@ header .item span {
   font-size: 15px;
   margin-top: 12px;
   margin-bottom: 10px;
-}
-
-.preference-item img {
-  width: 100%;
-  height: 100%;
 }
 
 .preference-item span,
@@ -220,4 +240,175 @@ header .item span {
   margin-bottom: 20px;
   color: #bfbfbf;
   text-decoration: line-through;
+}
+
+.school-introduce {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.school-introduce h4 {
+  height: 54px;
+  line-height: 54px;
+  font-size: 19px;
+}
+
+.school-introduce-content a {
+  float: left;
+}
+
+.school-introduce-content a img {
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+.school-introduce-text {
+  float: left;
+  margin-left: 14px;
+}
+
+.school-introduce-text h5 {
+  font-size: 15px;
+  margin-bottom: 29px;
+}
+
+.school-introduce-content .price {
+  float: right;
+  font-size: 14px;
+  width: 60px;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.school-introduce-content .price span {
+  color: #f97927;
+}
+
+.school-introduce-content .price del {
+  text-decoration: line-through;
+  color: #bfbfbf;
+}
+
+.school-introduce-text p {
+  color: #7f7f7f;
+  margin-bottom: 11px;
+}
+
+.theme {
+  padding: 19px 15px 15px;
+}
+
+.theme-title h4 {
+  float: left;
+  font-size: 19px;
+}
+
+.theme-title a {
+  float: right;
+  font-size: 13px;
+}
+
+.theme-show {
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding: 14px 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.theme-show a {
+  width: 100px;
+}
+
+.theme-show a img {
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+.theme-show .theme-introduce {
+  flex: 1;
+  color: #7f7f7f;
+  font-size: 12px;
+  padding-left: 15px;
+  box-sizing: border-box;
+
+}
+
+.theme-show .theme-introduce h5 {
+  font-size: 15px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.theme-show .theme-introduce p {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-top: 16px;
+}
+
+.theme-show .price {
+  position: absolute;
+  top: 14px;
+  right: 0px;
+  font-size: 13px;
+  width: 60px;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.theme-show .price span {
+  color: #f97927;
+}
+
+.theme-show .price del {
+  text-decoration: line-through;
+  color: #bfbfbf;
+}
+
+.adv {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.adv img {
+  width: 100%;
+}
+
+.camp {
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.camp h4 {
+ font-size: 19px;
+}
+
+.camp ul {
+  padding-top: 14px;
+  padding-bottom: 33px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.camp-item {
+  display: inline-block;
+  padding-right: 15px;
+  width: 240px;
+}
+
+.camp-item a {
+  display: block;
+  width: 100%;
+  height: 120px;
+}
+
+.camp-item img {
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
 }

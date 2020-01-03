@@ -1,0 +1,112 @@
+/* 版心 */
+.container {
+  width: 1039px;
+  margin: 0 auto;
+}
+
+/* 1.顶部导航 */
+nav {
+  height: 28px;
+  background-color: #545652;
+  line-height: 28px;
+}
+
+nav .left {
+  float: left;
+}
+
+nav .right {
+  float: right;
+}
+
+nav .left a,
+nav .right a {
+  color: rgba(255, 255, 255, 0.65);
+  margin-right: 20px;
+}
+
+nav .left a:first-child {
+  margin-left: 10px;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* 2.头部 */
+header {
+  height: 115px;
+  background-color: #f0f3ef;
+}
+
+.header-top {
+  position: relative;
+  height: 75px;
+  border-bottom: 1px solid #e3e9e2;
+  box-sizing: border-box;
+}
+
+.header-top span {
+  float: left;
+  font-size: 28px;
+  margin-top: 21px;
+  margin-right: 40px;
+  color: #f2901c;
+  font-weight: bold;
+}
+
+.header-top .search-box {
+  position: relative;
+  float: left;
+  width: 492px;
+  height: 32px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.header-top .search-box input {
+  width: calc(492px - 37px);
+  height: 100%;
+  border: none;
+  font-size: 14px;
+  padding-left: 14px;
+  box-sizing: border-box;
+}
+
+.header-top .search-box i {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 37px;
+  height: 100%;
+  background-image: url(../img/music_search_icon.png);
+  background-size: 37px 32px;
+}
+
+.header-top .logo {
+  position: absolute;
+  top: 14px;
+  right: 384px;
+}
+
+.header-top .logo img {
+  width: 180px;
+  height: 92px;
+}
+
+.header-nav {
+  height: calc(115px - 75px);
+}
+
+.header-nav a {
+  float: left;
+  margin-right: 25px;
+  margin-top: 13px;
+  font-size: 14px;
+  color: #555d53;
+}
+
+.header-nav a:hover {
+  background-color: #555d53;
+  color: #fff;
+}
