@@ -219,6 +219,7 @@ main {
 .new-disc-title a {
   float: right;
   font-size: 14px;
+  color: #999;
 }
 
 .new-disc ul {
@@ -298,6 +299,7 @@ main {
 .recent-song-list-title a {
   float: right;
   font-size: 14px;
+  color: #999;
 }
 
 .recent-song-list ul {
@@ -372,9 +374,6 @@ main {
   color: #999;
 }
 
-
-
-
 .aside {
   float: right;
   width: 300px;
@@ -383,4 +382,215 @@ main {
 .carousel-aside img {
   width: 100%;
   height: 250px;
+}
+
+.join {
+  margin-top: 20px;
+}
+
+.join-count-item {
+  float: left;
+  background-color: #f5f7f8;
+  margin-right: 2px;
+  width: 98px;
+  height: 57px;
+  text-align: center;
+}
+
+.join-count-item h5 {
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.join-count-item h5 a {
+  color: #138a65;
+}
+
+.join-count-item h5 a:hover {
+  color: #fff;
+  background-color: #138a65;
+}
+
+.join-count-item p {
+  font-size: 15px;
+}
+
+.join .button {
+  display: block;
+  height: 40px;
+  background-color: #139d72;
+  color: #fff;
+  margin-top: 3px;
+  border-radius: 3px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  border: 1px solid #138a65;
+  box-sizing: border-box;
+}
+
+.popular-music-class {
+  margin-top: 27px;
+}
+
+.popular-music-class-title {
+  height: 28px;
+  line-height: 28px;
+}
+
+.popular-music-class-title h5 {
+  float: left;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.popular-music-class-title a {
+  float: right;
+  color: #999;
+  font-size: 13px;
+}
+
+.popular-music-class-item {
+  border-bottom: 1px solid #f8f6f6;
+}
+
+.popular-music-class-item a {
+  float: left;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 6px;
+  border-top: 1px solid #f8f6f6;
+  border-right: 1px solid #f8f6f6;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #138a65;
+}
+
+.popular-music-class-item a:hover {
+  background-color: #f5f7f8;
+}
+
+.single-list {
+  margin-top: 24px;
+}
+
+.single-list-title {
+  height: 37px;
+  line-height: 37px;
+  border-bottom: 1px solid #e4e2e2;
+  box-sizing: border-box;
+}
+
+.single-list-title h4 {
+  float: left;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.single-list-title .button {
+  float: right;
+  width: 90px;
+  height: 25px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #139d72;
+  border: 1px solid #138a65;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.single-list-nav {
+  height: 36px;
+  line-height: 36px;
+  color: #999;
+  font-size: 13px;
+}
+
+.single-list-nav small {
+  color: #138a65;
+}
+
+.single-list-nav i {
+  color: #333;
+}
+
+.single-list-item {
+  position: relative;
+  height: 60px;
+  padding-left: 60px;
+}
+
+.single-list-item:hover {
+  background-color: #f5f7f8;
+}
+
+.single-list-item i {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-image: url(../upload/popular_singers_item_01.jpg);
+  background-size: 48px 48px;
+}
+
+.single-list-item:nth-child(2) i {
+  background-image: url(../upload/single_list_item_02.jpg);
+}
+
+.single-list-item:nth-child(3) i {
+  background-image: url(../upload/popular_singers_item_03.jpg);
+}
+
+.single-list-item:nth-child(4) i {
+  background-image: url(../upload/single_list_item_04.jpg);
+}
+
+.single-list-item:nth-child(5) i {
+  background-image: url(../upload/single_list_item_05.jpg);
+}
+
+.single-list-item:nth-child(6) i {
+  background-image: url(../upload/single_list_item_06.jpg);
+}
+
+.single-list-item:nth-child(7) i {
+  background-image: url(../upload/popular_singers_item_04.jpg);
+}
+
+.single-list-item:nth-child(8) i {
+  background-image: url(../upload/single_list_item_08.jpg);
+}
+
+.single-list-item:nth-child(9) i {
+  background-image: url(../upload/single_list_item_09.jpg);
+}
+
+.single-list-item:nth-child(10) i {
+  background-image: url(../upload/popular_singers_item_06.jpg);
+}
+
+.single-list-item h5 {
+  font-size: 15px;
+  color: #138a65;
+  font-weight: normal;
+  padding: 12px 0px 8px;
+}
+
+.single-list-item span {
+  font-size: 13px;
+  color: #999;
+}
+
+.single-list-item small {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  color: #e6e6e6;
+  font-size: 35px;
 }
