@@ -110,3 +110,277 @@ header {
   background-color: #555d53;
   color: #fff;
 }
+
+/* 3.主体 */
+main {
+  padding-top: 40px;
+}
+
+.content {
+  float: left;
+  width: 675px;
+}
+
+.content-carousel {
+  padding-bottom: 27px;
+}
+
+.content-carousel img {
+  width: 100%;
+  height: 250px;
+}
+
+.popular-singers {
+  margin-bottom: 37px;
+}
+
+.popular-singers h4 {
+  font-size: 17px;
+  font-weight: normal;
+  height: 34px;
+  line-height: 34px;
+  border-bottom: 2px solid #02a682;
+  box-sizing: border-box;
+}
+
+.popular-singers small {
+  font-size: 14px;
+  color: #999;
+}
+
+.popular-singers ul {
+  padding: 0px 5px 20px 29px;
+  background-color: #f5f7f8;
+}
+
+.popular-singers-item {
+  float: left;
+  padding-top: 14px;
+  margin-right: 23px;
+  text-align: center;
+}
+
+.popular-singers-item:nth-child(-n+4) {
+  margin-bottom: 10px;
+}
+
+.popular-singers-item a {
+  display: block;
+  border: 5px solid #fff;
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 1px #DFDCDC;
+}
+
+.popular-singers-item img {
+  width: 125px;
+  height: 125px;
+}
+
+.popular-singers-item h5 {
+  color: #138a65;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.popular-singers-item span {
+  color: #999;
+  font-size: 14px;
+}
+
+.new-disc-title {
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 2px solid #02a682;
+  box-sizing: border-box;
+}
+
+.new-disc-title h4 {
+  float: left;
+  font-size: 17px;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+.new-disc-title p {
+  float: left;
+  font-size: 14px;
+  color: #999;
+}
+
+.new-disc-title p small {
+  color: #138a65;
+}
+
+.new-disc-title p i {
+  color: #333;
+}
+
+.new-disc-title a {
+  float: right;
+  font-size: 14px;
+}
+
+.new-disc ul {
+  padding: 0px 5px 20px 29px;
+  background-color: #f5f7f8;
+}
+
+.new-disc-item {
+  float: left;
+  width: 135px;
+  padding-top: 14px;
+  margin-right: 23px;
+}
+
+.new-disc-item a {
+  display: block;
+  width: 100%;
+  height: 135px;
+}
+
+.new-disc-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.new-disc-item h5 {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  font-weight: normal;
+  color: #138a65;
+  font-size: 15px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.new-disc-item p {
+  color: #999;
+  font-size: 13px;
+  margin-bottom: 35px;
+}
+
+.recent-song-list {
+  margin-top: 37px;
+}
+
+.recent-song-list-title {
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 2px solid #02a682;
+  box-sizing: border-box;
+}
+
+.recent-song-list-title h4 {
+  float: left;
+  font-size: 17px;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+.recent-song-list-title p {
+  float: left;
+  font-size: 14px;
+  color: #999;
+}
+
+.recent-song-list-title p small {
+  color: #138a65;
+}
+
+.recent-song-list-title p i {
+  color: #333;
+}
+
+.recent-song-list-title a {
+  float: right;
+  font-size: 14px;
+}
+
+.recent-song-list ul {
+  padding-left: 15px;
+  padding-top: 15px;
+  background-color: #f5f7f8;
+}
+
+.recent-song-list-item {
+  position: relative;
+  float: left;
+  width: 315px;
+  height: 166px;
+  padding: 16px 13px 16px 63px;
+  box-sizing: border-box;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #EEE;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.recent-song-list-item i {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 41px;
+  height: 41px;
+  background-image: url(../upload/recent_song_list_01.jpg);
+  background-size: 41px 41px;
+}
+
+.recent-song-list-item:nth-child(2) i {
+  background-image: url(../upload/recent_song_list_02.jpg);
+}
+
+.recent-song-list-item:nth-child(3) i {
+  background-image: url(../upload/recent_song_list_03.jpg);
+}
+
+.recent-song-list-item:nth-child(4) i {
+  background-image: url(../upload/recent_song_list_04.jpg);
+}
+
+.recent-song-list-item:nth-child(5) i {
+  background-image: url(../upload/recent_song_list_05.jpg);
+}
+
+.recent-song-list-item:nth-child(6) i {
+  background-image: url(../upload/recent_song_list_06.jpg);
+}
+
+.recent-song-list-item h5 {
+  color: #138a65;
+  font-size: 15px;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.recent-song-list-item a:hover {
+  color: #fff;
+  background-color: #555d53;
+}
+
+.recent-song-list-item span {
+  color: #999;
+}
+
+
+
+
+.aside {
+  float: right;
+  width: 300px;
+}
+
+.carousel-aside img {
+  width: 100%;
+  height: 250px;
+}
