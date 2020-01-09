@@ -467,3 +467,156 @@ header {
   float: right;
   width: 300px;
 }
+
+.aside-title {
+  height: 43px;
+  line-height: 43px;
+  background-color: #f2f7f6;
+  padding-left: 17px;
+  border-radius: 3px;
+  margin: 20px 0;
+  font-size: 13px;
+}
+
+.aside-title a {
+  color: #3377aa;
+}
+
+.aside-title a:hover {
+  color: #fff;
+  background-color: #3377aa;
+}
+
+.aside-adv img {
+  width: 100%;
+}
+
+.week-list {
+  margin-top: 8px;
+  margin-bottom: 50px;
+}
+
+.week-list-title {
+  height: 47px;
+  line-height: 47px;
+  border-bottom: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.week-list-title h4 {
+  float: left;
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 12px;
+}
+
+.week-list-title a {
+  color: #3377aa;
+  font-size: 13px;
+}
+
+.week-list-item {
+  height: 41px;
+  line-height: 41px;
+  font-size: 13px;
+  border-bottom: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.week-list-item span {
+  margin-left: 5px;
+}
+
+.week-list-item a {
+  color: #3377aa;
+  margin-left: 4px;
+}
+
+.week-list-item a:hover {
+  color: #fff;
+  background-color: #3377aa;
+}
+
+.doulist {
+  margin-top: 20px;
+}
+
+.doulist h4 {
+  font-size: 16px;
+  padding-bottom: 10px;
+  font-weight: normal;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.doulist-item {
+  height: 52px;
+  line-height: 52px;
+  font-size: 13px;
+  border-bottom: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.doulist-item a {
+  float: left;
+  color: #3377aa;
+}
+
+.doulist-item span {
+  float: right;
+  color: #999;
+}
+
+.cooperate {
+  margin-top: 26px;
+}
+
+.cooperate h4 {
+  height: 48px;
+  line-height: 48px;
+  font-weight: normal;
+  font-size: 16px;
+  border-bottom: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+
+.cooperate-content {
+  padding-top: 22px;
+  padding-bottom: 3px;
+}
+
+.cooperate-content p {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+
+
+footer {
+  margin-top: 40px;
+}
+
+.footer-content {
+  border-top: 1px dashed #ddd;
+  padding: 6px 0;
+  font-size: 13px;
+}
+
+footer p {
+  float: left;
+  color: #999;
+}
+
+footer .other-help {
+  float: right;
+}
+
+.other-help a {
+  float: left;
+  margin-left: 10px;
+  color: #3377aa;
+}
+
+.other-help a:hover {
+  color: #fff;
+  background-color: #3377aa;
+}
