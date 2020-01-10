@@ -120,7 +120,7 @@ header {
   width: 100%;
 }
 
-/* 4.主体 */
+/* 4.1主体左侧 */
 .content {
   float: left;
   width: 675px;
@@ -462,7 +462,7 @@ header {
 .popular-judge-show-item p small {
   color: #3377aa;
 }
-
+/* 4.2 主体右侧 */
 .aside {
   float: right;
   width: 300px;
@@ -588,6 +588,8 @@ header {
   font-size: 13px;
   margin-bottom: 12px;
 }
+
+/* 4.底部 */
 
 footer {
   margin-top: 40px;
